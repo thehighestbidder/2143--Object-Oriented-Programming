@@ -1,4 +1,4 @@
 |                                                             |
 | :------------------------------------------------------------------------: |
-|  <img src=".Assignments/Pics/IMG_5589_(1).jpg" width="400">   |
+|  <img src="./Assignments/Pics/IMG_5589_(1).jpg" width="400">   |
 |  |
