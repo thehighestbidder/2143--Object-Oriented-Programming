@@ -42,4 +42,4 @@ This section reflects on the implications of ownership and lifecycle in composit
 
 ## Deliverables
 
-All responses and the C++ code example are contained within the `H06_Responses.txt` file. The C++ code is also provided directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
+All responses and the C++ code example are contained within the `H06_Responses` file. The C++ code is also provided directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
