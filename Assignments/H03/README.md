@@ -40,4 +40,4 @@ This section provides reflections on the appropriate use of inheritance, the dis
 
 ## Deliverables
 
-All responses and the C++ code example are contained within the `H03_Responses.txt` file. The C++ code is also provided directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
+All responses and the C++ code example are contained within the `H03_Responses` file. The C++ code is also provided directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
