@@ -43,4 +43,4 @@ This section encourages reflection on the practical application of these princip
 
 ## Deliverables
 
-All responses and the pseudo-code examples are contained within the `H07_Responses.txt` file. The pseudo-code is presented directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
+All responses and the pseudo-code examples are contained within the `H07_Responses` file. The pseudo-code is presented directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
