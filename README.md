@@ -5,5 +5,5 @@
 
 |     |
 | :---|
-|  ./Assignments/Pics/62AE378D-572F-4B18-8C58-24BC1F97FA9B_1_105_c.jpeg   |
+|  <img src="./Assignments/Pics/62AE378D-572F-4B18-8C58-24BC1F97FA9B_1_105_c.jpeg" width="400">   |
 |     |
