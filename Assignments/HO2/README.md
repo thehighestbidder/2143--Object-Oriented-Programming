@@ -41,4 +41,4 @@ This section provides reflections on the advantages and disadvantages of encapsu
 
 ## Deliverables
 
-All responses and the C++ class outline are contained within the `H02_Responses.txt` file. The C++ code snippets are also included directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
+All responses and the C++ class outline are contained within the `H02_Responses` file. The C++ code snippets are also included directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
