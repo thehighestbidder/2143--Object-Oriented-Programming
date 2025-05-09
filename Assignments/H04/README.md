@@ -41,4 +41,4 @@ This section clarifies the key differences between method overloading (compile-t
 
 ## Deliverables
 
-All responses and the pseudo-code demonstration are contained within the `H04_Responses.txt` file. The pseudo-code is also provided directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
+All responses and the pseudo-code demonstration are contained within the `H04_Responses` file. The pseudo-code is also provided directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
