@@ -39,4 +39,4 @@ This section reflects on the implementation choices in the `SavingsAccount` clas
 
 ## Deliverables
 
-All responses and the C++ code example are contained within the `H05_Responses.txt` file. The C++ code is also provided directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
+All responses and the C++ code example are contained within the `H05_Responses` file. The C++ code is also provided directly within that text file for easy review. This `README.md` provides a summary of the assignment and its contents.
