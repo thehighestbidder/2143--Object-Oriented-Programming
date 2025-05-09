@@ -38,6 +38,6 @@ The `main` function demonstrates the creation and destruction of `Goblin` object
 
 This section provides brief reflections on the significance of constructors in ensuring valid initial object states, the necessity of destructors for resource management (especially in languages without garbage collection), and the potential problems arising from neglecting proper lifecycle management.
 
-## Deliverables
+
 
 
