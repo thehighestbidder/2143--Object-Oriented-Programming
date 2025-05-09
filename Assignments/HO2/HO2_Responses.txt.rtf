@@ -1,0 +1,344 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+\f3\fmodern\fcharset0 Courier-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid102\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid602\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid7}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Samuel Edet Ukim\
+OOP HW2\
+\
+Part A: Conceptual Questions
+\f1\b0 \
+
+\f0\b Definition
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Encapsulation:
+\f1\b0  In my own words, encapsulation is the bundling of data (attributes) and the methods (functions) that operate on that data within a single unit,
+\fs20 \super  1 
+\fs24 \nosupersub often a class. It also involves controlling the access to this internal data, typically by making it private and providing controlled public interfaces (methods) to interact with it. \uc0\u8232 \u8232 \u8232 \u8232 \u8232 \u8232 \u8232 \
+\ls1\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Example of preventing unintended changes:
+\f1\b0  Imagine a 
+\f2\fs26 Car
+\f1\fs24  class with a private 
+\f2\fs26 fuelLevel
+\f1\fs24  data member. Without encapsulation, any part of the program could directly change 
+\f2\fs26 fuelLevel
+\f1\fs24  to an invalid value (e.g., -50 or 1000). With encapsulation, the 
+\f2\fs26 Car
+\f1\fs24  class would provide a public method like 
+\f2\fs26 refuel(int amount)
+\f1\fs24 . This method can contain logic to ensure that the 
+\f2\fs26 amount
+\f1\fs24  is valid (e.g., non-negative and doesn't exceed the tank capacity) before updating the private 
+\f2\fs26 fuelLevel
+\f1\fs24 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 \strokec2 Visibility Modifiers
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Public:
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Benefit:
+\f1\b0  High code flexibility, as any part of the program can directly access public members.\
+\ls2\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Potential Drawback:
+\f1\b0  Low data safety, as internal data can be unintentionally or maliciously modified, leading to unpredictable behavior and making debugging harder.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Private:
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Benefit:
+\f1\b0  High data safety, as internal data can only be accessed and modified through the class's own methods, allowing for controlled changes and maintaining data integrity.\
+\ls2\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Potential Drawback:
+\f1\b0  Reduced code flexibility, as direct access to internal details is restricted, potentially requiring more methods to expose necessary functionalities.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Protected:
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls2\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Benefit:
+\f1\b0  Allows derived classes to directly access and modify inherited members, providing flexibility for specialized behavior in subclasses.\
+\ls2\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Potential Drawback:
+\f1\b0  Lower data safety compared to private, as derived classes can potentially introduce unintended changes, and changes to protected members can impact all derived classes, potentially reducing maintainability.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Scenario for intentionally using protected members:
+\f1\b0  You might intentionally use 
+\f2\fs26 protected
+\f1\fs24  members in a base class when designing a framework or a set of related classes where derived classes are expected to extend or customize the base class's behavior by directly manipulating certain internal data, but direct access from unrelated parts of the program should still be restricted. For example, in a GUI framework, a base 
+\f2\fs26 Widget
+\f1\fs24  class might have 
+\f2\fs26 protected
+\f1\fs24  members for its internal geometry, allowing derived widgets like 
+\f2\fs26 Button
+\f1\fs24  or 
+\f2\fs26 TextBox
+\f1\fs24  to adjust their layout directly.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 \strokec2 Impact on Maintenance
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Encapsulation can significantly reduce debugging complexity in large codebases because it isolates the impact of changes. If the internal implementation of a class (its private members and the logic within its methods) needs to be modified, as long as the public interface (the signatures and behavior of its public methods) remains the same, the rest of the codebase that uses this class should not break. This localized impact makes it easier to pinpoint the source of bugs during maintenance, as you primarily need to examine the class that was changed.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Brief example of code breaking if internal data is made public:
+\f1\b0  Consider a 
+\f2\fs26 ShoppingCart
+\f1\fs24  class with a public 
+\f2\fs26 items
+\f1\fs24  vector. If another part of the program directly adds a non-
+\f2\fs26 Product
+\f1\fs24  object to this vector, or modifies the quantity of an item without going through the 
+\f2\fs26 ShoppingCart
+\f1\fs24 's methods (which might enforce business rules like checking inventory), the internal state of the 
+\f2\fs26 ShoppingCart
+\f1\fs24  could become inconsistent, leading to errors in calculations or unexpected behavior later on.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 \strokec2 Real-World Analogy
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Real-Life Object/System:
+\f1\b0  A television remote control.\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Public Interface:
+\f1\b0  The buttons on the remote (power, volume up/down, channel up/down, mute, etc.). These are the ways the user interacts with the TV. The user doesn't need to know how the signals are generated or transmitted.\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Private Implementation:
+\f1\b0  The internal circuitry, the battery, the infrared or Bluetooth transmitter, the specific encoding schemes for each button press. This is hidden from the user.\
+\ls4\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Why is it helpful to keep the private side hidden?
+\f1\b0  It simplifies the user's interaction \'96 they only need to understand the function of the buttons. It also allows the manufacturer to change the internal implementation (e.g., use a different type of transmitter or encoding) without affecting how the user operates the remote, as long as the public interface (the buttons and their functions) remains the same. This makes the system more robust to internal changes and easier to upgrade or maintain.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 \strokec2 Part B: Small-Class Design (Minimal Coding)
+\f1\b0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 C++\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs26 \cf0 #include <iostream>\
+#include <string>\
+\
+class BankAccount \{\
+private:\
+    double balance;\
+    std::string accountNumber;\
+\
+public:\
+    // Constructor\
+    BankAccount(std::string accNumber, double initialBalance);\
+\
+    // Public Methods\
+    void deposit(double amount);\
+    bool withdraw(double amount);\
+\
+    // Documentation (Conceptual)\
+    // Note: Do not directly manipulate the 'balance' member. Use the provided public methods.\
+\};\
+\
+// (Minimal implementation for demonstration)\
+BankAccount::BankAccount(std::string accNumber, double initialBalance) : accountNumber(accNumber), balance(initialBalance) \{\}\
+\
+void BankAccount::deposit(double amount) \{\
+    if (amount > 0) \{\
+        balance += amount;\
+        std::cout << "Deposit of " << amount << " successful. New balance: " << balance << std::endl;\
+    \} else \{\
+        std::cout << "Invalid deposit amount." << std::endl;\
+    \}\
+\}\
+\
+bool BankAccount::withdraw(double amount) \{\
+    if (amount > 0 && amount <= balance) \{\
+        balance -= amount;\
+        std::cout << "Withdrawal of " << amount << " successful. New balance: " << balance << std::endl;\
+        return true;\
+    \} else \{\
+        std::cout << "Insufficient funds or invalid withdrawal amount." << std::endl;\
+        return false;\
+    \}\
+\}\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b\fs24 \cf0 Encapsulation Justification:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls5\ilvl0
+\f3\b\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 balance
+\f0\fs24  (private):
+\f1\b0  The 
+\f2\fs26 balance
+\f1\fs24  should be private to ensure that the account's funds are only modified through controlled operations like deposits and withdrawals. Direct external manipulation could lead to inconsistencies (e.g., setting a negative balance without a withdrawal) and bypass any business rules or logging mechanisms the 
+\f2\fs26 BankAccount
+\f1\fs24  class might implement.\
+\ls5\ilvl0
+\f3\b\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 accountNumber
+\f0\fs24  (private):
+\f1\b0  The 
+\f2\fs26 accountNumber
+\f1\fs24  is a unique identifier for the account. It should be private to prevent accidental or malicious modification, which could lead to confusion, security breaches, or the inability to correctly identify the account. Once assigned, the account number should generally remain constant.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 \strokec2 Enforcing Constraints/Validations:
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls6\ilvl0
+\f3\b\fs26 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 deposit(double amount)
+\f0\fs24  (public):
+\f1\b0  This method enforces the constraint that only positive amounts can be deposited. It checks if 
+\f2\fs26 amount > 0
+\f1\fs24  before updating the 
+\f2\fs26 balance
+\f1\fs24 . This prevents unintended negative changes to the balance.\
+\ls6\ilvl0
+\f3\b\fs26 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 withdraw(double amount)
+\f0\fs24  (public):
+\f1\b0  This method enforces two constraints: the withdrawal amount must be positive (
+\f2\fs26 amount > 0
+\f1\fs24 ), and there must be sufficient funds in the account (
+\f2\fs26 amount <= balance
+\f1\fs24 ). It only modifies the 
+\f2\fs26 balance
+\f1\fs24  and returns 
+\f2\fs26 true
+\f1\fs24  if these conditions are met, ensuring the balance doesn't become negative due to withdrawals and preventing invalid withdrawal requests.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b \cf0 \strokec2 Documentation:
+\f1\b0 \
+\pard\pardeftab720\partightenfactor0
+\cf0 C++\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs26 \cf0 /**\
+ * @brief Represents a bank account with a balance and account number.\
+ *\
+ * The balance is a private member and should NOT be directly manipulated.\
+ * Use the public methods (deposit, withdraw) to interact with the balance,\
+ * as they enforce necessary constraints and validations.\
+ */\
+class BankAccount \{\
+private:\
+    double balance;\
+    std::string accountNumber;\
+\
+public:\
+    /**\
+     * @brief Constructs a BankAccount object.\
+     * @param accNumber The initial account number.\
+     * @param initialBalance The initial balance of the account.\
+     */\
+    BankAccount(std::string accNumber, double initialBalance);\
+\
+    /**\
+     * @brief Deposits a positive amount into the account.\
+     * @param amount The amount to deposit. Must be greater than zero.\
+     * @note Do not directly modify the private 'balance' member.\
+     */\
+    void deposit(double amount);\
+\
+    /**\
+     * @brief Withdraws a positive amount from the account if sufficient funds are available.\
+     * @param amount The amount to withdraw. Must be greater than zero and not exceed the current balance.\
+     * @return True if the withdrawal was successful, false otherwise.\
+     * @note Do not directly modify the private 'balance' member.\
+     */\
+    bool withdraw(double amount);\
+\};\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b\fs24 \cf0 Part C: Reflection & Short-Answer
+\f1\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls7\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Pros and Cons of Hiding Internal Data:
+\f1\b0 \
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls7\ilvl1
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Benefit 1 (Increased Data Integrity):
+\f1\b0  Hiding internal data behind methods allows the class to control how its data is modified, ensuring that invariants are maintained and the data remains in a valid state.\
+\ls7\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Benefit 2 (Reduced Coupling):
+\f1\b0  Changes to the internal implementation of a class (its private members and method logic) are less likely to affect other parts of the program that use the class, as long as the public interface remains consistent. This reduces dependencies and makes the codebase easier to evolve.\
+\ls7\ilvl1
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u9702 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Potential Limitation/Overhead:
+\f1\b0  Introducing methods to access and modify data can sometimes add a small performance overhead compared to direct access (though compilers often optimize this). It can also lead to more code in the class interface if many attributes need to be indirectly accessed.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls7\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Encapsulation vs. Abstraction:
+\f1\b0  Encapsulation is about bundling data and the methods that operate on it, and controlling access to the data (how it's represented). Abstraction is about hiding complex implementation details and showing only the essential information to the user (what an object does). Encapsulation focuses on the "how" of data protection, while abstraction focuses on the "what" of functionality exposure.\
+\ls7\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Encapsulation and Abstraction as Information Hiding:
+\f1\b0  Both encapsulation and abstraction can be considered forms of "information hiding" because they aim to limit the amount of detail that is exposed to the outside world. Encapsulation hides the internal data representation and implementation details, while abstraction hides the complexity of the underlying operations, presenting a simplified view of the object's capabilities.\
+\ls7\ilvl0
+\f0\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Testing Encapsulated Classes:
+\f1\b0  Even if data is private, we can still thoroughly unit test the class by focusing on its 
+\f0\b public interface (the public methods)
+\f1\b0 . We can create test cases that call these public methods with various inputs (including boundary and edge cases) and assert that the object behaves as expected based on its observable state (e.g., by calling other public methods to check the resulting state or by observing any side effects). This approach tests the class's behavior and the correctness of its internal logic without needing to directly access the private data. For example, to test the 
+\f2\fs26 BankAccount
+\f1\fs24 , we would call 
+\f2\fs26 deposit
+\f1\fs24  and 
+\f2\fs26 withdraw
+\f1\fs24  with different amounts and then check the balance using a hypothetical public 
+\f2\fs26 getBalance()
+\f1\fs24  method (if needed for testing purposes, though not strictly required for the class's core functionality).\
+}
